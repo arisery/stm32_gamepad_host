@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="usb_xbox"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="usb_xbox.elf">
+				<Option output="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/usb_xbox.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F401xC"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/USB_HOST/App"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/USB_HOST/Target"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Inc"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 usb_xbox.elf"/>
+					<CompileFile command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="usb_xbox.elf/fast">
+				<Option output="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/usb_xbox.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F401xC"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/USB_HOST/App"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/USB_HOST/Target"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc"/>
+					<Add directory="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Inc"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 usb_xbox.elf/fast"/>
+					<CompileFile command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Inc/adc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Inc/dma.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Inc/gpio.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Inc/main.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Inc/stm32f4xx_it.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Inc/tim.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Inc/usart.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/adc.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/dma.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/gpio.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/main.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/stm32f4xx_it.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/syscalls.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/sysmem.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/system_stm32f4xx.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/tim.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Src/usart.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Startup/startup_stm32f401ccux.s">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/CMSIS/LICENSE.txt">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Inc/usbh_audio.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Src/usbh_audio.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc/usbh_cdc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_keybd.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_mouse.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_parser.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_usage.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_scsi.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Inc/usbh_mtp.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Inc/usbh_mtp_ptp.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Src/usbh_mtp.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Class/MTP/Src/usbh_mtp_ptp.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/STM32F401CCUX_FLASH.ld">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/USB_HOST/App/usb_host.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/USB_HOST/App/usb_host.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/USB_HOST/Target/usbh_conf.c">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/USB_HOST/Target/usbh_conf.h">
+			<Option target="usb_xbox.elf"/>
+		</Unit>
+		<Unit filename="C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

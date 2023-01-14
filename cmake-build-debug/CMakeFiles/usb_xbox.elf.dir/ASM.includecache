@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/Core/Startup/startup_stm32f401ccux.s
+

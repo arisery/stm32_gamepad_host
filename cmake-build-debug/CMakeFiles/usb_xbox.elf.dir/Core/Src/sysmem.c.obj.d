@@ -1,0 +1,20 @@
+CMakeFiles/usb_xbox.elf.dir/Core/Src/sysmem.c.obj: \
+ C:\MyFile\project\stm_project\stm32\cubeIDE_workspace\usb_xbox\Core\Src\sysmem.c \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\errno.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\errno.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\reent.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\newlib.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\config.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\ieeefp.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_types.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h \
+ c:\myfile\project\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h

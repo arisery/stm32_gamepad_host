@@ -1,0 +1,3 @@
+C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/CMakeFiles/usb_xbox.elf.dir
+C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/MyFile/project/stm_project/stm32/cubeIDE_workspace/usb_xbox/cmake-build-debug/CMakeFiles/rebuild_cache.dir
