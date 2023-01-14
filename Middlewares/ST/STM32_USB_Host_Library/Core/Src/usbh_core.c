@@ -751,8 +751,6 @@ USBH_StatusTypeDef  USBH_Process(USBH_HandleTypeDef *phost)
         if (status == USBH_OK)
         {
           phost->gState = HOST_CLASS;
-          USBH_UsrLog("Request success!");
-
         }
         else if (status == USBH_FAIL)
         {

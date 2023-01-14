@@ -143,21 +143,13 @@ static USBH_StatusTypeDef USBH_HID_InterfaceInit(USBH_HandleTypeDef *phost)
   uint8_t interface;
 
   interface = USBH_FindInterface(phost, phost->pActiveClass->ClassCode, HID_BOOT_CODE, 0xFFU);
-  /************************************************************************************/
-  if(interface==0xFFU)
-  {
-	  interface=USBH_FindInterface(phost, phost->pActiveClass->ClassCode, HID_NO_SUB_CLASS, 0xFFU);
-  }
-  /*****************************************************************************************/
+
   if ((interface == 0xFFU) || (interface >= USBH_MAX_NUM_INTERFACES)) /* No Valid Interface */
   {
     USBH_DbgLog("Cannot Find the interface for %s class.", phost->pActiveClass->Name);
     return USBH_FAIL;
   }
-  else {
-	    USBH_UsrLog("Find the interface %d.",interface);
 
-  }
   status = USBH_SelectInterface(phost, interface);
 
   if (status != USBH_OK)
@@ -190,13 +182,6 @@ static USBH_StatusTypeDef USBH_HID_InterfaceInit(USBH_HandleTypeDef *phost)
     USBH_UsrLog("Mouse device found!");
     HID_Handle->Init = USBH_HID_MouseInit;
   }
-  /******************************************************************************************************/
-  else if(phost->device.CfgDesc.Itf_Desc[interface].bInterfaceProtocol  == HID_GMAEPAD_BOOT_CODE)
-  {
-	  USBH_UsrLog ("GAMEPAD device found!");
-	  HID_Handle->Init = USBH_HID_GamePadInit;
-  }
-  /*********************************************************************************************************/
   else
   {
     USBH_UsrLog("Protocol not supported.");
@@ -411,7 +396,6 @@ static USBH_StatusTypeDef USBH_HID_Process(USBH_HandleTypeDef *phost)
       if (status == USBH_OK)
       {
         HID_Handle->state = HID_SYNC;
-        USBH_UsrLog("Get Report success!");
       }
       else if (status == USBH_BUSY)
       {
